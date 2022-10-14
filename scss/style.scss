@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana,sans-serif;
+}
+
+
+
+#stol {
+  border: 2px solid #000000;
+  font-size: 21px;
+  text-align: center;
+  margin-top: 10px;
+
+  caption {
+
+    .year {
+      left: -10px;
+    }
+  }
+
+
+  tr {
+    position: relative;
+  }
+
+  td {
+    border: 2px solid #000000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  th {
+    border: 2px solid #000000;
+    width: 30px;
+    height: 30px;
+  }
+
+  td:nth-of-type(16),th:nth-of-type(15) {
+    border-right: 5px solid #000;
+  }
+
+  #tr {
+    position: relative;
+
+    &>th {
+      position: relative;
+
+      &>svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 30px;
+        height: 60px;
+      }
+    }
+  }
+
+  #tr2>th,#tr4>th,#tr6>th {
+    background-color: rgba(128,128,128,0.6);
+  }
+
+  #tr3 {
+    position: relative;
+
+    &>th {
+      position: relative;
+
+      &>svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 30px;
+        height: 60px;
+      }
+    }
+  }
+  }
+  
+
+  #stol2 {
+    border: 2px solid #000000;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 10px;
+
+    caption {
+      margin-top: 15px;
+
+      .year {
+        left: -24px;
+      }
+    }
+
+    tr {
+      position: relative;
+    }
+
+    td {
+      border: 2px solid #000000;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    th {
+      border: 2px solid #000000;
+      width: 30px;
+      height: 30px;
+    }
+
+    td:nth-of-type(16),th:nth-of-type(15) {
+      border-right: 5px solid #000;
+    }
+
+    #l_name {
+      position: relative;
+
+      &>th {
+        position: relative;
+
+        &>svg {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 30px;
+          height: 60px;
+        }
+      }
+    }
+
+    #f_name>th,#f_name2>th,#tr6>th {
+      background-color: rgba(128,128,128,0.6);
+    }
+
+    #l_name2 {
+      position: relative;
+
+      &>th {
+        position: relative;
+
+        &>svg {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 30px;
+          height: 60px;
+        }
+      }
+    }
+    }
+
+    caption {
+      font: 25px verdana,sans-serif;
+      margin-bottom: 5px;
+
+      .select {
+        position: relative;
+        font-family: verdana,sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        appearance: none;
+        border: 1px solid #fff;
+      }
+
+      .year {
+        position: relative;
+        font-size: 25px;
+        font-weight: 500;
+        appearance: none;
+        border: 1px solid #fff;
+      }
+    }
